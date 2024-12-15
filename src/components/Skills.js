@@ -1,8 +1,16 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import tensor from "../assets/img/tensorflow.png";
+import linux from "../assets/img/linux.png";
+import cysec from "../assets/img/cysec.png";
+import react from "../assets/img/react.png";
+import kotlin from "../assets/img/Kotlin.png";
+import js from "../assets/img/js.png";
+import php from "../assets/img/php.png";
+import mysql from "../assets/img/mysql.png";
+import mongodb from "../assets/img/mongodb.png";
+import postman from "../assets/img/postman.png";
+import python from "../assets/img/python.png";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
@@ -37,44 +45,48 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={cysec} alt="Image" />
                                 <h5>Cyber Security</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={tensor} alt="Image" />
                                 <h5>Tensorflow</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={linux} alt="Image" />
                                 <h5>Linux</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={react} alt="Image" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={kotlin} alt="Image" />
                                 <h5>Kotlin</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={js} alt="Image" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={php} alt="Image" />
                                 <h5>Php</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={mysql} alt="Image" />
                                 <h5>MySQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={mongodb} alt="Image" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={postman} alt="Image" />
                                 <h5>Postman</h5>
+                            </div>
+                            <div className="item">
+                                <img src={python} alt="Image" />
+                                <h5>Python</h5>
                             </div>
                         </Carousel>
                     </div>
