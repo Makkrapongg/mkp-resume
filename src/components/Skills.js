@@ -11,8 +11,9 @@ import mysql from "../assets/img/mysql.png";
 import mongodb from "../assets/img/mongodb.png";
 import postman from "../assets/img/postman.png";
 import python from "../assets/img/python.png";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import html from "../assets/img/html.png";
+import css from "../assets/img/css.png";
+import opencv from "../assets/img/opencv.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -70,7 +71,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={php} alt="Image" />
-                                <h5>Php</h5>
+                                <h5>php</h5>
                             </div>
                             <div className="item">
                                 <img src={mysql} alt="Image" />
@@ -87,6 +88,18 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={python} alt="Image" />
                                 <h5>Python</h5>
+                            </div>
+                            <div className="item">
+                                <img src={html} alt="Image" />
+                                <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={css} alt="Image" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={opencv} alt="Image" />
+                                <h5>OpenCV</h5>
                             </div>
                         </Carousel>
                     </div>
